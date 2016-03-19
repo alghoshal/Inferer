@@ -5,12 +5,4 @@ package infer.util;
  */
 public interface TextFilter {
 
-	boolean orientFile(String inputFilePath);
-
-	String orientLine(String readLine);
-
-	Object orientAnswer(String query, String answer);
-
-	String orientBody(String body, boolean isQuery);
-
 }
