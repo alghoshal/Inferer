@@ -9,8 +9,10 @@ public interface Orienter extends TextFilter {
 
 	String orientLine(String readLine);
 
-	Object orientAnswer(String query, String answer);
+	String orientAnswer(String query, String answer);
 
 	String orientBody(String body, boolean isQuery);
+	
+	String orientSupport(String support, boolean isBodyReoriented);
 
 }
