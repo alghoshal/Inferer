@@ -11,7 +11,7 @@ public interface Orienter extends TextFilter {
 
 	String orientAnswer(String query, String answer);
 
-	String orientBody(String body, boolean isQuery);
+	String orientBody(String body, boolean isQuery, int nid);
 	
 	String orientSupport(String support, boolean isBodyReoriented);
 
