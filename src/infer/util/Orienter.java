@@ -3,7 +3,7 @@ package infer.util;
 /**
  * @author algo
  */
-public interface Orienter extends TextFilter {
+public interface Orienter extends Filter {
 
 	boolean orientFile(String inputFilePath);
 
